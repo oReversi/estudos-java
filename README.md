@@ -15,7 +15,7 @@
 ## 🗺️ Próximos passos
 
 - [x] Calculadora simples
-- [ ] Calculadora em loop (várias contas sem reiniciar)
+- [x] Calculadora em loop (várias contas sem reiniciar)
 - [ ] Média de notas
 - [ ] Jogo de adivinhar o número
 
