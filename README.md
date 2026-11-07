@@ -11,6 +11,7 @@
 | Exercício | O que faz |
 |-----------|-----------|
 | [Calculadora](./calculadora) | Calculadora de terminal com as 4 operações e tratamento de divisão por zero |
+| [CalculadoraLoop](./calculadora2) | Calculadora de terminal com as 4 operações e tratamento de divisão por zero, quanto termina pergunta se deseja realizar outra |
 
 ## 🗺️ Próximos passos
 
