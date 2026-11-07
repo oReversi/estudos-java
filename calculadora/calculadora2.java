@@ -13,6 +13,7 @@ public class calculadora2 {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         String res;
+        
 
         //do{
         //} while faz o código repetir enquanto a condição for verdadeira.
@@ -31,38 +32,38 @@ public class calculadora2 {
         System.out.print("Digite o segundo numero: ");
         double n2 = scanner.nextDouble();
 
-        if (sinal.equals("+")){
-            System.out.printf("%.1f%n", n1+n2);
-        }
-
-        else if (sinal.equals("-")){
-           System.out.printf("%.1f%n", n1-n2);
-        }
-
-        // Divisão por zero precisa de tratamento à parte
-
-        else if (sinal.equals("/")){
-            if (n2 == 0){
-                System.out.println("Não pode ser dividido por Zero");
-            }else{
-                System.out.printf("%.1f%n", n1/n2);
-            }
-        }
-
-        else if (sinal.equals("*")){
-            System.out.printf("%.1f%n", n1*n2);
-        }
-
-        else {
-            System.out.println("Operação inválida");
-        
-            
-        }
-
         scanner.nextLine();
+
+        switch (sinal) {
+            case "+":
+                System.out.printf(Locale.US, "%.2f%n", n1+n2);
+                break;
+            case "-":
+                System.out.printf(Locale.US, "%.2f%n", n1-n2);
+                break;
+            case "*":
+                System.out.printf(Locale.US, "%.2f%n", n1*n2);
+                break;
+             case "/":
+                if (n2 == 0) {
+                    System.out.println("Não pode ser dividido por Zero");
+                } else {
+                    System.out.printf(Locale.US, "%.2f%n", n1/n2);
+                }
+                break;
+             default:
+                System.out.println("Operação Inválida");
+       
+        }
+
+        //nextLine().trim()
+        //Remove os espaços em branco do início e do fim de uma String.
 
         System.out.println("Deseja fazer outra conta? S/N");
         res = scanner.nextLine().trim();
+
+        //equalsignoreCase
+        //Compara as Strings ignorando Maiusculas e minusculas
 
           
         } while(res.equalsIgnoreCase("S"));
