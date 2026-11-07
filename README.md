@@ -1,42 +1,32 @@
-\# Estudos de Java
+# ☕ Estudos de Java
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Status](https://img.shields.io/badge/status-aprendendo-brightgreen?style=for-the-badge)
 
+> Meu diário de bordo aprendendo Java do zero. Um exercício de cada vez.
 
-Repositório com meus exercícios e pequenos projetos desenvolvidos enquanto aprendo Java.
+## 📚 Exercícios
 
+| Exercício | O que faz |
+|-----------|-----------|
+| [Calculadora](./calculadora) | Calculadora de terminal com as 4 operações e tratamento de divisão por zero |
 
+## 🗺️ Próximos passos
 
-\## Exercícios
+- [x] Calculadora simples
+- [ ] Calculadora em loop (várias contas sem reiniciar)
+- [ ] Média de notas
+- [ ] Jogo de adivinhar o número
 
-
-
-\- \*\*Calculadora:\*\* calculadora de terminal com as quatro operações matemáticas (+, -, \* e /), incluindo tratamento de divisão por zero.
-
-
-
-\## Tecnologias
-
-
-
-\- Java
-
-\- VS Code
-
-
-
-\## Como executar
-
-
-
-Dentro da pasta de um exercício, compile e execute pelo terminal:
-
-
+## ▶️ Como executar
 
 ```bash
-
+cd calculadora
 javac Calculadora.java
-
 java Calculadora
-
 ```
 
+## 👤 Sobre
+
+Feito por [@oReversi](https://github.com/oReversi).
