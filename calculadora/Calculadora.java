@@ -1,6 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+//java.util.Locale faz que por padrão o código use "." em vez de ","
+
 //Calculadora simples de terminal.
 // Lê dois números e uma operação (+ - * /) e imprime o resultado.
 
