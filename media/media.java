@@ -51,6 +51,7 @@ public class media {
      System.out.println("Deseja continuar? S/N");
      res = scanner.nextLine().trim();
 
+
      } while(res.equalsIgnoreCase("S"));
      
 

@@ -10,22 +10,39 @@
 
 | Exercício | O que faz |
 |-----------|-----------|
-| [Calculadora](./calculadora) | Calculadora de terminal com as 4 operações e tratamento de divisão por zero |
-| [CalculadoraLoop](./calculadora) | Calculadora de terminal com as 4 operações e tratamento de divisão por zero, quanto termina pergunta se deseja realizar outra |
+| [Calculadora](./calculadora) | Calculadora de terminal com as 4 operações, tratamento de divisão por zero e loop para várias contas sem reiniciar |
+| [Média](./media) | Lê três notas, calcula a média e diz se o aluno está aprovado, em recuperação ou reprovado, com loop para repetir |
+
+## 🧠 O que já pratiquei
+
+- Entrada de dados com `Scanner` e `Locale.US` (ponto como separador decimal)
+- Variáveis e tipos (`double`, `String`)
+- Decisões com `switch` e `if / else if / else`
+- Repetição com `do / while`
+- Saída formatada com `printf`
 
 ## 🗺️ Próximos passos
 
 - [x] Calculadora simples
 - [x] Calculadora em loop (várias contas sem reiniciar)
-- [ ] Média de notas
+- [x] Média de notas
 - [ ] Jogo de adivinhar o número
 
 ## ▶️ Como executar
 
+A partir da raiz do repositório:
+
 ```bash
+# Calculadora
 cd calculadora
 javac Calculadora.java
 java Calculadora
+```
+
+```bash
+# Média
+javac media/media.java
+java media.media
 ```
 
 ## 👤 Sobre
