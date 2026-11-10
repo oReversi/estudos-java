@@ -12,7 +12,7 @@
 |-----------|-----------|
 | [Calculadora](./calculadora) | Calculadora de terminal com as 4 operações, tratamento de divisão por zero e loop para várias contas sem reiniciar |
 | [Média](./media) | Lê três notas, calcula a média e diz se o aluno está aprovado, em recuperação ou reprovado, com loop para repetir |
-| [Acerte o número](./acerte) | Sorteia um número entre 1 e um limite escolhido, valida o palpite, mostra se acertou (ou qual era o número) e permite jogar de novo |
+| [Acerte o número](./acerte) | Jogo de adivinhação com duas versões: `acerte` (sorteia entre 1 e um limite, valida o palpite e permite jogar de novo) e `acerte2` (limite mínimo de 2 e leituras que aceitam só inteiros, sem quebrar com letras ou decimais) |
 
 ## 🧠 O que já pratiquei
 
@@ -20,9 +20,14 @@
 - Variáveis e tipos (`int`, `double`, `String`)
 - Decisões com `switch` e `if / else if / else`
 - Operadores lógicos (`||`) para validar intervalos
-- Repetição com `do / while`
+- Operador de negação (`!`) e como ele inverte um `boolean`
+- Repetição com `do / while` e `while` de validação (repetir até a entrada ser válida)
+- Laços aninhados
+- Validação de entrada com `hasNextInt()` para evitar `InputMismatchException`
+- Como o `Scanner` funciona por dentro: o `nextInt()` deixa o Enter no buffer, e o `nextLine()` solto o descarta
 - Números aleatórios com `Random`
 - Saída formatada com `printf` (`%d`, `%n`)
+
 
 ## 🗺️ Próximos passos
 
@@ -30,7 +35,10 @@
 - [x] Calculadora em loop (várias contas sem reiniciar)
 - [x] Média de notas
 - [x] Jogo de adivinhar o número
-- [ ] Jogo: repetir o palpite até ser válido (`while`) e tratar limite 0 ou negativo
+- [x] Jogo: repetir o palpite até ser válido (`while`) e tratar limite 0 ou negativo
+- [x] Jogo: proteger as leituras contra letras e decimais (`hasNextInt()`)
+- [ ] Jogo: dica de maior/menor com `else if`
+
 
 ## ▶️ Como executar
 
