@@ -46,6 +46,9 @@
 - [x] Jogo: proteger as leituras contra letras e decimais (`hasNextInt()`)
 - [x] Calculadora de IMC com validação e faixas de classificação
 - [x] IMC: usar `Locale.US` no `printf` do resultado (saída com ponto)
+- [x] Conversor de Fahrenheit para Celsius com validação do zero absoluto (-459.67 °F)
+
+
 
 
 ## ▶️ Como executar
@@ -77,6 +80,13 @@ java acerte
 cd imc
 javac imc.java
 java imc
+```
+
+```bash
+# Temperatura
+cd Temp
+javac Temp.java
+java Temp
 ```
 
 ## 👤 Sobre
