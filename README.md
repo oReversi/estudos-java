@@ -14,6 +14,8 @@
 | [Média](./media) | Lê três notas, calcula a média e diz se o aluno está aprovado, em recuperação ou reprovado, com loop para repetir |
 | [Acerte o número](./acerte) | Jogo de adivinhação com duas versões: `acerte` (sorteia entre 1 e um limite, valida o palpite e permite jogar de novo) e `acerte2` (limite mínimo de 2 e leituras que aceitam só inteiros, sem quebrar com letras ou decimais) |
 | [IMC](./imc) | Calculadora de IMC que aceita altura em metros (`1.72`) ou centímetros (`172`), valida altura (0,5 a 2,8 m) e peso (2 a 600 kg) pedindo de novo até ser válido, classifica o resultado em 6 faixas (baixo peso até obesidade grau III) e permite calcular novamente |
+| [Temperatura](./Temperatura) | Conversor de Fahrenheit para Celsius que aceita decimais, valida a entrada e rejeita valores abaixo do zero absoluto (-459,67 °F), mostra o resultado com 2 casas e permite converter de novo |
+| [Contador](./contador) | Conta do início ao fim em ordem crescente ou decrescente, conforme os valores digitados. Valida que início e fim são inteiros, aceita início igual ao fim e só aceita S ou N na hora de repetir |
 
 ## 🧠 O que já pratiquei
 
