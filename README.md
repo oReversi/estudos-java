@@ -90,6 +90,13 @@ javac Temp.java
 java Temp
 ```
 
+```bash
+# Contador
+cd Count
+javac Count.java
+java Count
+```
+
 ## 👤 Sobre
 
 Feito por [@oReversi](https://github.com/oReversi).
